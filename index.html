@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Evan — Photography</title>
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <!-- Loader -->
+  
+  
+<div id="loader">
+  <div class="camera-box">
+    <svg class="camera-svg" width="220" height="150" viewBox="0 0 220 150">
+      <rect x="10" y="30" width="200" height="100" rx="14" fill="#111" stroke="#555" stroke-width="3"/>
+      <rect x="35" y="10" width="55" height="30" rx="6" fill="#111" stroke="#555" stroke-width="3"/>
+      <rect id="flashLamp" x="160" y="40" width="30" height="18" rx="3" fill="#ddd"/>
+      <circle cx="110" cy="80" r="32" fill="#000" stroke="#777" stroke-width="4"/>
+      <circle cx="110" cy="80" r="16" fill="#222"/>
+    </svg>
+    <div id="flash"></div>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+  <header class="nav">
+    <div class="logo">EVAN</div>
+    <nav class="nav-links" aria-label="Main Navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="btn">Contact</a>
+    </nav>
+
+    <button id="hamburgerBtn" class="hamburger" aria-label="Open menu">
+      <img src="assets/icons/hamburger.svg" alt="menu" width="22" height="22">
+    </button>
+  </header>
+
+  <!-- Mobile menu -->
+  <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+    <button id="mobileClose" class="close-btn" aria-label="Close menu">✕</button>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <div class="badge small fade-up">Photographer • Based in Yogyakarta</div>
+            <h1 class="hero-title fade-up">Capturing moments that matter — Event, People, Nature, Wedding/Pre Wedding, Sports, Birthday, and more...</h1>
+            <p class="lead fade-up">I create cinematic visuals and editorial style imagery.</p>
+            <div class="cta fade-up" style="margin-top:18px">
+              <button class="btn-primary" onclick="location.href='portfolio.html'">View Works</button>
+              <button class="btn-outline" onclick="location.href='about.html'">About</button>
+            </div>
+
+        
+          </div>
+
+          <div>
+            <div class="image-panel fade-up">
+              <img src="assets/images/hero/hero1.jpg" alt="Hero image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Your Name • All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/loader.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/animations.js"></script>
+</body>
+</html>
